@@ -1,0 +1,8 @@
+package ChessGame;
+import ChessGame.ChessBoard;
+
+public class Main {
+    public static void main(String[] args) {
+        new ChessBoard();
+    }   
+}

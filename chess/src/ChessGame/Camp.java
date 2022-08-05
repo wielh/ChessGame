@@ -1,0 +1,19 @@
+package ChessGame;
+
+public enum Camp {
+    black,White,Other;
+    
+    void printCamp(){
+        switch (this) {
+            case black:
+                System.out.print("black ");
+                break;
+            case White:
+                System.out.print("white ");
+                break;
+            default:
+                System.out.print("other ");
+                break;
+        }
+    }
+}
